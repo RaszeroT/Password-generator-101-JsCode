@@ -3,8 +3,9 @@
 ## Description
 
 <p>This random Password Generator will randomly generate a password between 8 and 128 characters. <br>
-Upon clicking generate the user will be prompted to input how many characters they would like their password to be. <br>
-Then user will be prompted if they want to use lowercase letters, <br>
+
+Upon clicking generate the user will be prompted to input how many characters they would like their password to be, <br>
+then user will be prompted if they want to use lowercase letters, <br>
 then user will be prompted if they want to use uppercase letters, <br>
 then user will be prompted if they want to use numbers, and <br>
 then user will be prompted if they want to use special characters.
@@ -18,19 +19,6 @@ If user selected "OK" to all the forementioned prompts, this Random Password Gen
 <li> Corrected link to style.css </li>
 </ul>
 
-## Code Added to Script.js
-
-<ul>
-<li> Variable for all possible special characters added. </li>
-<li> Variable for all possible lowercase letters added. </li>
-<li> Variable for all possible numbers added. </li>
-<li> Variable for all lowercase letters be changed to uppercase letters added. </li>
-<li>  </li>
-<li>  </li>
-<li>  </li>
-<li>  </li>
-<li>  </li>
-</ul>
 
 ## Link to Live Site
 
