@@ -19,10 +19,9 @@ If user selected "OK" to all the forementioned prompts, this Random Password Gen
 <li> Corrected link to style.css </li>
 </ul>
 
-
 ## Link to Live Site
 
-<a href="">
+<a href="https://raszerot.github.io/Password-generator-101-JsCode/">My Password Generator</a>
 
 ## Images of Webpage and Functionality
 
