@@ -10,7 +10,7 @@ then user will be prompted if they want to use uppercase letters, <br>
 then user will be prompted if they want to use numbers, and <br>
 then user will be prompted if they want to use special characters.
 
-If user selected "OK" to all the forementioned prompts, this Random Password Generator will randomly generate a password with all numbers between 0-9, letters between a-z, both lowercase and uppercase; it will also generate the following characters: !@#$%^&\* into the password and will be the user selected character length from prompt one. The user can also select "CANCEL" when promted if they do not wish to have the prompted characters in their password.</p>
+If user selected "OK" to all the fore-mentioned prompts, this Random Password Generator will randomly generate a password with all numbers between 0-9, letters between a-z, both lowercase and uppercase; it will also generate the following characters: !@#$%^&\* into the password and will be the user selected character length from prompt one. The user can also select "CANCEL" when prompted if they do not wish to have the prompted characters in their password.</p>
 
 ## Code Edits to Index.html
 
@@ -25,7 +25,7 @@ If user selected "OK" to all the forementioned prompts, this Random Password Gen
 
 ## Images of Webpage and Functionality
 
-<img src="assets/img/img-password-length_order1.jpeg" width="300" height="300">
+<img src="assets/img/img-password-length_order1.jpeg" width="300" height="300"> 
 <img src="assets/img/Password-length-input_order2.jpeg" width="300" height="300">
 <img src="assets/img/Lowercase_order3.jpeg" width="300" height="300">
 <img src="assets/img/uppercase_order4.jpeg" width="300" height="300">
