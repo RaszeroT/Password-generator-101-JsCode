@@ -37,19 +37,19 @@ function generatePassword() {
   ];
   var numbers = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
 
-  // converts string lowercaseLetter to uppercase 
+  // converts string lowercaseLetter to uppercase
   var uppercaseLetter = lowercaseLetter.map(function (letter) {
     return letter.toUpperCase();
   });
 
   // Password length needs to be number
-  // parseInt() parses it's argument and returns as an integer 
+  // parseInt() parses it's argument and returns as an integer
   var passwordLength = parseInt(passwordLengthInput) || 0;
   if (passwordLength < 8 || passwordLength > 128) {
     return alert("Passwords must be between 8 and 128 characters");
   }
 
-  // Password requirements for the user 
+  // Password requirements for the user
   //window.confirm () opens yes or no dialog and returns true/false depending on user click
   var useLowercase = window.confirm("Would you like to use lowercase letters?");
   var useUppercase = window.confirm("Would you like to use uppercase letters?");
@@ -61,7 +61,6 @@ function generatePassword() {
     return alert("Passwords must use one type of character");
   }
 
-
   // Variables to store characters selected, and to store the final password its self. if characters selected concat (joined) to the array
   var myChars = [];
   var password = [];
@@ -71,9 +70,8 @@ function generatePassword() {
   if (useSpecialChars) myChars = myChars.concat(specialChars);
   shuffle(myChars);
 
-
   // Looping until password length requirement is met
-  for (var i = 0; i <= passwordLength; i++) {
+  for (var i = 1; i <= passwordLength; i++) {
     // add random character from possible characters to password
     var randomNumber = Math.floor(Math.random() * myChars.length);
     password.push(myChars[randomNumber]);
